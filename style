@@ -1,0 +1,239 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0;
+	padding:0;
+	background:#eee;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size:14px;
+}
+a{
+    text-decoration: underline;
+    color: #F9F9F9;
+    font-style: oblique;
+    font-variant: normal;
+    font-weight: bolder;
+    font-size: 30px;
+    line-height: 5em;
+}
+ul{
+    list-style-type: none;
+    color: #EF9FA1;
+    font-family: "华文隶书";
+    font-style: normal;
+    font-weight: 400;
+}
+header{
+    width: 90%;
+    height: 160px;
+    margin: 5px auto;
+    background: none;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-family: "华文隶书";
+}
+.logo{
+    margin: 0px 0px;
+    padding: 17px;/*字体与边框的距离*/
+    font-style: normal;
+    font-size: 80px;/*字体的大小*/
+    font-weight: 400;
+    color: white;/*字体的颜色*/
+    /*height:60px;框的高度*/
+    line-height: 0.8em;/*字体上下移动*/
+    /*border:10px solid #fff;边框的粗细和颜色*/
+    border-radius: 100px;/*边缘的弧度*/
+    font-family:aladin;
+}
+.banner1{
+    display: inline-block;
+    font-family:"华文隶书";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 35px;
+    color: #fff;
+    text-decoration-line:none;
+    text-align: right;
+}
+.banner2{
+    display: inline-block;
+    font-family:"华文隶书";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 35px;
+    color: #fff;
+	
+}
+.link{
+	display:block;
+	font-family: "Bodoni MT Black";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 120px;
+    color: #fff; 
+	line-height:11em;/*字体上下移动*/
+
+}
+header nav dl{
+	margin-right:40px;
+	text-align:center;
+	font-family:"黑体", "仿宋", "方正姚体";
+}
+header nav dl>dt{
+    display: table;
+    color: azure;
+    font-size: 30px;
+    font-family: "华文隶书";
+    font-variant: normal;
+    text-align: left;
+    text-indent: -80px;
+}
+header nav dl>dd{
+	color:white;
+	font-size: 40px;
+	font-weight: bolder;
+	padding-bottom: 10px;
+}
+header nav dl>dd a{
+	padding-bottom:0px;
+	letter-spacing:2px;
+	font-size:18px;
+	color:white;
+	line-height: normal;
+	font-style:normal;
+	text-align: right;
+}
+header nav dl>dd.introduction a{
+	font-weight:900;
+	color:coral;
+	border-bottom:1px solid #000;
+}
+header nav dl>dd a:hover{
+    color: #BABABA;
+    text-align: center;
+    font-size: 30px;
+}
+header nav dl>dd.active a{color:#149DE0;}
+header nav dl>p{
+    color: palevioletred;
+    text-align: center;
+    font-family: "华文行楷";
+    font-size: 25px;
+    line-height: 30px;
+}
+header nav dl>p1{
+    color: chocolate;
+    font-family: "微软雅黑";
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 20px;
+    text-align: right;
+}
+
+h3{
+    color: cadetblue;
+    font-family: "华文彩云";
+    font-size: 22px;
+    font-weight: bolder;
+    padding-top: 70px;
+    border-style: none;
+    border-width: 0px;
+}
+p1{
+    color: palevioletred;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-family: "华文行楷";
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2;
+    text-align: left;
+    border: 5px dotted hsla(0,0%,100%,1.00);
+}
+p2{
+    color: #251E1E;
+    font-family: "华文行楷", "华文彩云";
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 20px;
+    text-align: center;
+}
+p3{
+    color: #251E1E;
+    font-size: 25px;
+    font-family: "华文隶书";
+}
+p4{
+    color: #251E1E;
+    font-size: 25px;
+    font-family: "华文隶书";
+}
+input{
+    color:black;
+    font-size: 16px;
+    letter-spacing: 5px;
+    text-align: center;
+    text-indent: 5px;
+}
+h1{
+    color: #251E1E;
+    font-size: 30px;
+    letter-spacing: 10px;
+    font-family: "华文行楷", "华文彩云";
+}
+.container aside{
+	margin:30px 20px;
+	padding-top:5px;
+	width:25%;
+	height:600px;
+	float:left;
+	letter-spacing: 10px;
+	text-align: center;
+}
+.container aside p{
+	font-family: "华文行楷";
+	font-size:22px;
+	color:palevioletred;
+}
+.container aside ul>li{
+    margin-left: 80px;
+    text-align: left;
+    margin-top: -40px;
+}
+.container aside ul>li a{
+    color: cornflowerblue;
+    text-align: left;
+    font-size: 18px;
+    font-style: normal;
+    font-family: "仿宋";
+    letter-spacing: normal;
+    font-variant: small-caps;
+}
+.container aside ul>li a:hover{
+	color:#aaa;
+}	
+.container aside ul>li.active a{
+	color:#149de0;
+}
+.container section{
+	margin:96px 0;
+	margin-right: 40px;
+	padding:5px 10px;
+	width:65%;
+	height:500px;
+	float:right;
+	background:#EFE3E3;
+}
+.container section article{
+    margin: 150px 0;
+    margin-left: 40px;
+}
+.container section ul>li{
+	margin: -100px 0;
+}
+.container section img{
+	margin: -90px;
+	margin-left: 40px;
+}
