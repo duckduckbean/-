@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>留言板</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body {
+    background-image: url("../image/timg4ZC16I2I.jpg");
+    background-size: cover;
+    text-align: center;
+    white-space: normal;
+    padding-left: 65px;
+    color: #FFFAFA;
+    font-weight: bolder;
+    float: none;
+    clear: none;
+    opacity: 1;
+    text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+<header>
+	<nav>
+		<dl>
+			<dt>暖心老人陪护</dt>
+			<p>爱是最美的陪伴<br>&nbsp;&nbsp;陪伴是最长情的告白</p>
+			<hr>
+			<dd><a href="personal page.html">个人主页</a><br>
+		</dd>
+		</dl>
+	</nav>
+	</header><br><br>
+     <h1>留言板</h1>
+      <form>
+         <textarea rows="10" cols="50"></textarea><br><br>
+         <label>是否匿名:</label>
+           <label>
+             <input type="radio" name="RadioGroup1" value="是" >
+             是</label>
+           <label>
+             <input type="radio" name="RadioGroup1" value="否">
+             否</label>
+         <br><br>
+         <input type="button" class="button" value="提 交" 
+				onClick="window.open('personal page.html')">
+     </form>
+</body>
+</html>
