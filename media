@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>media</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body {
+    background-image: url("../image/timg4ZC16I2I.jpg");
+    background-size: cover;
+    white-space: normal;
+    padding-left: 65px;
+    color: #090808;
+    font-weight: bolder;
+    float: none;
+    clear: none;
+    opacity: 1;
+    text-decoration: none;
+}
+</style>
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/aladin:n4:default.js" type="text/javascript"></script>
+</head>
+
+<body>
+<header>
+	<nav>
+		<dl>
+			<dt>暖心老人陪护</dt>
+			<p>爱是最美的陪伴<br>&nbsp;&nbsp;陪伴是最长情的告白</p>
+			<p2>媒 体 库</p2><br>
+			<dd><a href="personal page.html">返回个人主页</a></dd>
+		</dl>
+  </nav>
+  <p6>选择要上传的文件</p6><br>
+  <input type="file">
+  <h4>音乐</h4>
+  <p5>2020年1月1日</p5><br>
+  <p5>Moon Walk+Take off (Live)</p5><br>
+  <audio controls  >
+    <source src="../music/威神V - Moon Walk+Take off (Live).mp3" type="audio/mp3">
+  </audio><br>
+  <p5>戒烟 (Live)</p5><br>
+  <audio controls  >
+    <source src="../music/李荣浩,陈立农,灵超 - 戒烟 (Live).mp3" type="audio/mp3">
+  </audio>
+	<br>
+  <h4>照片</h4>
+	<p>
+	  <p5>2020年1月1日</p5>
+	  <br>
+  </p>
+	<p><img src="../image/6e9359170bc0d6d76ae2497bd397c93.jpg" width="618" heig.ht="1080" >
+	  <img src="../image/19b185a10eb6ea35f1c5cfc3e8d7844.jpg" width="618" heig.ht="1080" >
+  </p>
+	<p5>
+	  <p>2019年12月31日</p>
+	</p5>
+	<img src="../image/768c57ad7bbece00f4056059761b31c.jpg" width="618" heig.ht="1080" >
+  <h4>视频</h4>
+	<p5>
+		<p>2020年1月1日</p>
+	</p5>
+	<video src="../video/新年祝福.mp4" width="640" height="480" controls="controls">
+</header>
+</body>
+</html>
